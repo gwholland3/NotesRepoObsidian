@@ -1,5 +1,3 @@
-# AppArmor
-
 Resources:
 - SUSE Security and Hardening Guide:
     - https://doc.opensuse.org/documentation/leap/security/html/book-security/part-apparmor.html
@@ -13,12 +11,12 @@ Most of the config lines for a given process just consist of:
 - Naming a particular file or group of files
 - Specifying allowed interactions between the process and the file(s) (e.g. read, write, execute)
 
-## AppArmor Profile Flags
+# AppArmor Profile Flags
 
 See "PROFILE FLAGS" in the Ubuntu man page. Notable ones:
 - If you add `flags=(complain)`, it will allow all operations that it normally would deny, but it still prints an angry message to console
 
-## AppArmor Resource Flags
+# AppArmor Resource Flags
 
 See "Access Modes" in the Ubuntu man page. Common ones:
 - `x` - the process is allowed to execute this file
@@ -26,7 +24,7 @@ See "Access Modes" in the Ubuntu man page. Common ones:
 - `r` - the process is allowed to read this file
 - `w` - the process is allowed to write this file
 
-## Symlinks
+# Symlinks
 
 When a process requests access to a file path with one or more symlinks in it, AppArmor will fully resolve the file path to its "real" path before comparing it with the access rules for that process.
 
