@@ -1,5 +1,5 @@
 ---
-title: Grant Holland's Notes
+title: Welcome
 ---
 This is a public website where I take notes.
 
