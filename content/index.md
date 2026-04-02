@@ -1,6 +1,6 @@
 ---
-title: Welcome to Quartz
+title: Grant Holland's Notes
 ---
+This is a public website where I take notes.
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+These notes are hosted on [GitHub](https://github.com/gwholland3/NotesRepo). The repository `README` contains more details.
