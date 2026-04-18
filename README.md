@@ -1,5 +1,8 @@
 # My Personal Notes
 
+> [!WARNING]
+> I have switched to Logseq for the time being. See [this repo](https://github.com/gwholland3/NotesRepo) instead.
+
 This repo contains my public notes, which are written in Markdown files. You can find them in the `content/` directory.
 
 I use [Obsidian](https://obsidian.md/) to view and edit my notes locally, and I sync them across multiple devices using [Git](https://git-scm.com/). There is an Obsidian community plugin called "[Git](https://publish.obsidian.md/git-doc/Start+here)" that allows me to push and pull from within the Obsidian app. This even works on the iOS Obsidian app, though setting up the Git repository on my iPhone required some hacky steps - see [this guide](https://forum.obsidian.md/t/setting-up-obsidian-git-on-ios-without-ish-or-working-copy/97800).
